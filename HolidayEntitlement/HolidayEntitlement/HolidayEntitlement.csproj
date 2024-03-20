@@ -25,27 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Features\your-answers.feature.cs">
-      <DependentUpon>your-answers.feature</DependentUpon>
-    </Compile>
-    <Compile Update="Features\errors.feature.cs">
-      <DependentUpon>errors.feature</DependentUpon>
-    </Compile>
-    <Compile Update="Features\compressed-hours .feature.cs">
-      <DependentUpon>compressed-hours .feature</DependentUpon>
-    </Compile>
-    <Compile Update="Features\hours-worked-per-week.feature.cs">
-      <DependentUpon>hours-worked-per-week.feature</DependentUpon>
-    </Compile>
-    <Compile Update="Features\casual-hours.feature.cs">
-      <DependentUpon>casual-hours.feature</DependentUpon>
-    </Compile>
-    <Compile Update="Features\days-worked-per-week.feature.cs">
-      <DependentUpon>days-worked-per-week.feature</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <SpecFlowFeatureFiles Update="Features\your-answers.feature">
       <Visible>$(UsingMicrosoftNETSdk)</Visible>
       <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
