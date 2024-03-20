@@ -37,4 +37,5 @@ Use the visual studio Test Explorer
 
 * Cross-browser testing
 
-
+* Playwright assertion library?
+  - Used Fluent Assertions for now
