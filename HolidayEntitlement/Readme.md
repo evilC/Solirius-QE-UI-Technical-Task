@@ -14,7 +14,7 @@ Use the visual studio Test Explorer
 `dotnet test`
 
 ## Report generation
-1. Run `gendoc.bat` in the root folder to generate SpecFlow LivingDoc  
+1. Run `gendoc.bat` in the `HolidayEntitlement` folder to generate SpecFlow LivingDoc  
   ( Or equivalent command, eg `livingdoc test-assembly bin\Debug\net6.0\HolidayEntitlement.dll -t bin\Debug\net6.0\TestExecution.json`)
 2. Open `LivingDoc.html` in a browser to view
 
