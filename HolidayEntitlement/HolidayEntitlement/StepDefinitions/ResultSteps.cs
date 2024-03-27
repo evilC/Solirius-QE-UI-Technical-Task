@@ -9,8 +9,7 @@ namespace HolidayEntitlement.StepDefinitions
     {
         private readonly ResultPage _result;
 
-        public ResultSteps(Hooks.Hooks hooks,
-            ResultPage result)
+        public ResultSteps(ResultPage result)
         {
             _result = result;
         }

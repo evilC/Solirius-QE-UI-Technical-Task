@@ -1,24 +1,17 @@
 ﻿// Steps for Error related items
 using FluentAssertions;
 using HolidayEntitlement.Pages;
-using Microsoft.Playwright;
 
 namespace HolidayEntitlement.StepDefinitions
 {
     [Binding]
     public class ErrorSteps
     {
-        private readonly IPage _browser;
         private readonly Common _common;
-        private readonly BasePage _basePage;
 
-        public ErrorSteps(Hooks.Hooks hooks,
-            Common common,
-            BasePage basePage)
+        public ErrorSteps(Common common)
         {
-            _browser = hooks.Browser;
             _common = common;
-            _basePage = basePage;
         }
 
         [Then(@"the error element should be shown, indicating that there is a problem")]

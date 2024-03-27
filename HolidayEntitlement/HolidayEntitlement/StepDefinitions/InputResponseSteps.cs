@@ -11,8 +11,7 @@ namespace HolidayEntitlement.StepDefinitions
         private readonly DecimalResponsePage _daysPerWeek;
         private readonly DateResponsePage _datePage;
 
-        public InputResponseSteps(Hooks.Hooks hooks,
-            Common common,
+        public InputResponseSteps(Common common,
             DecimalResponsePage daysPerWeek,
             DateResponsePage employmentStartDate)
         {

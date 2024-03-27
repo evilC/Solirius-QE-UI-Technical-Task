@@ -9,9 +9,7 @@ namespace HolidayEntitlement.StepDefinitions
         private readonly Common _common;
         private readonly PeriodPage _period;
 
-        public PeriodSteps(Hooks.Hooks hooks,
-            Common common,
-            BasePage basePage,
+        public PeriodSteps(Common common,
             PeriodPage period)
         {
             _common = common;
